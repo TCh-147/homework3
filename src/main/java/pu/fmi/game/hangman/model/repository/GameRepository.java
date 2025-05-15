@@ -16,6 +16,5 @@ public interface GameRepository extends JpaRepository<HangmanGame, Long> {
   //DESC
   //LIMIT 10
   List<HangmanGame> findTop10ByOrderByStartedOnDateDesc();
-  // TODO: Add query method to find first 10 games ordered by started on date desc
-  // Look here for examples: https://docs.spring.io/spring-data/jpa/reference/repositories/query-methods-details.html#repositories.limit-query-result
+  
 }
